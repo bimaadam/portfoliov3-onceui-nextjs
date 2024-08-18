@@ -8,19 +8,19 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "https://once-ui.com/docs/theming",
-			title: "Themes",
-			description: "Style your app in minutes.",
+			href: "/about",
+			title: "About Me",
+			description: "Getting to know each other is better.",
 		},
 		{
-			href: "https://once-ui.com/docs/flexComponent",
-			title: "Layout",
-			description: "Build responsive layouts.",
+			href: "/project",
+			title: "Project",
+			description: "My Projects simple.",
 		},
 		{
-			href: "https://once-ui.com/docs/typography",
-			title: "Typography",
-			description: "Scale text automatically.",
+			href: "#",
+			title: "Curriculum Vitae",
+			description: "My Curriculum Vitae.",
 		},
 	];
 
@@ -48,18 +48,15 @@ export default function Home() {
 							position="relative"
 							fillWidth gap="24" marginBottom="104"
 							direction="column">
-							<InlineCode className="shadow-m" style={{width: 'fit-content', padding: 'var(--static-space-8) var(--static-space-16)'}}>
-								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
-							</InlineCode>
 							<Heading
 								variant="display-strong-s">
-								Comprehensive.<br/> Responsive.<br/>Accessible.
+								Full Stack Dev.<br/> Photography.<br/>Editing.
 							</Heading>
 							<Button
 								href="https://once-ui.com/docs"
 								suffixIcon="chevronRight"
 								variant="secondary">
-								Read docs
+								Contact Me
 							</Button>
 						</Flex>
 					</Flex>
@@ -105,17 +102,17 @@ export default function Home() {
 				justifyContent="space-between">
 				<Text
 					variant="body-default-s" onBackground="neutral-weak">
-					© 2024 Once UI, <Link href="https://github.com/once-ui-system/nextjs-starter?tab=MIT-1-ov-file">MIT License</Link>
+					© 2024 Bima Adam, <Link href="https://github.com/bimaadam/">MIT License</Link>
 				</Text>
 				<Flex
 					gap="12">
 					<Button
-						href="https://github.com/once-ui-system/nextjs-starter"
+						href="https://github.com/bimaadam/"
 						prefixIcon="github" size="s" variant="tertiary">
 						GitHub
 					</Button>
 					<Button
-						href="https://discord.com/invite/5EyAQ4eNdS"
+						href="https://discord.com/invite/27rbimz/"
 						prefixIcon="discord" size="s" variant="tertiary">
 						Discord
 					</Button>
